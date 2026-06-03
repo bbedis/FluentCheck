@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <LangVersion>14</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>FluentCheck</RootNamespace>
+        <IsAotCompatible>true</IsAotCompatible>
+        <IsPackable>true</IsPackable>
+        <PackageId>FluentCheck</PackageId>
+        <Version>0.1.0</Version>
+        <Description>A free, permissively licensed assertion library for .NET testing with a fluent Should() DSL.</Description>
+        <Authors>FluentCheck contributors</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>test assertion should fluent assert</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/FluentCheck/FluentCheck</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>

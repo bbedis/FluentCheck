@@ -1,0 +1,31 @@
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.cs]
+dotnet_sort_system_directive_first = true
+csharp_using_directive_placement = global:preserve
+dotnet_csharp_warning_level = 4
+
+[*.csproj]
+indent_size = 4
+xml_preserve_whitespace = false
+
+[*.json]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.yml]
+indent_size = 2
+
+[*.yaml]
+indent_size = 2

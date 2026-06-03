@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentCheck", "FluentCheck\FluentCheck.csproj", "{179F08BF-99A5-4540-82D9-35F125004099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentCheck.Tests", "FluentCheck.Tests\FluentCheck.Tests.csproj", "{4D0CE749-041E-47B9-ABE4-D4B8833A9B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentCheck.Benchmarks", "FluentCheck.Benchmarks\FluentCheck.Benchmarks.csproj", "{63306ECF-BAE6-43EA-A847-AA13C4EB4916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{179F08BF-99A5-4540-82D9-35F125004099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179F08BF-99A5-4540-82D9-35F125004099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179F08BF-99A5-4540-82D9-35F125004099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179F08BF-99A5-4540-82D9-35F125004099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0CE749-041E-47B9-ABE4-D4B8833A9B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0CE749-041E-47B9-ABE4-D4B8833A9B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0CE749-041E-47B9-ABE4-D4B8833A9B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0CE749-041E-47B9-ABE4-D4B8833A9B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63306ECF-BAE6-43EA-A847-AA13C4EB4916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63306ECF-BAE6-43EA-A847-AA13C4EB4916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63306ECF-BAE6-43EA-A847-AA13C4EB4916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63306ECF-BAE6-43EA-A847-AA13C4EB4916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
